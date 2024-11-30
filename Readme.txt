@@ -22,3 +22,7 @@
 11.) git restore --staged -> it removes file from chnages from staging area to the working area. This only works if changes are in your staging area.
 
 12.) Diff between git rm and git restore Ans: If you want to move the whole file back to the untracked state, then we do git rm otherwise if we just want the changes to be move in working area and staging area then we do git restore.
+
+13.) git diff commit1 commit2-> gives the difference of all file changes between two commits
+
+14.) "git commit -m "< Your commit Message" -> If we want to avoid opening a text editor like vim/name to add commit message we can use this following command
