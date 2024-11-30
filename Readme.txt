@@ -18,3 +18,5 @@
 9.) git log -> list downs all the commits of the respository
 
 10.) git retore -> It removes all files changes from the staging area to be committed.This can be useful,if we did some dirty piece of code and now no more want it.Instead of deleting every change line by line we can restore it or you can say retore last clean version of the file.
+
+11.) git restore --staged -> it removes file from chnages from staging area to the working area. This only works if changes are in your staging area.
