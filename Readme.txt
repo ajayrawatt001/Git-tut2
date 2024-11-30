@@ -20,3 +20,5 @@
 10.) git retore -> It removes all files changes from the staging area to be committed.This can be useful,if we did some dirty piece of code and now no more want it.Instead of deleting every change line by line we can restore it or you can say retore last clean version of the file.
 
 11.) git restore --staged -> it removes file from chnages from staging area to the working area. This only works if changes are in your staging area.
+
+12.) Diff between git rm and git restore Ans: If you want to move the whole file back to the untracked state, then we do git rm otherwise if we just want the changes to be move in working area and staging area then we do git restore.
