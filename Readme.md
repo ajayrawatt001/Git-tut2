@@ -1,6 +1,5 @@
 1.) git init-> Powers your folder to be managed by git and initialises a new empty repository.It also creates a .git folder that has all the relevant logic to manage versions of your project
 
-
 2.) Working Area-> There can be a bunch of files that are not currently handled by git.It means that changes does or to be done in those files are not managed by git yet. A file which is in working area is considered to be not in staging area.When we do 'git status' and we see a bunch of 'untracked files' then these are actually called to be in the working area.
 
 3.) Staging Area -> What all files are going to be part of the next next version that we will create This staging area is the place where git knows what changes will be done form the last version to the next version
@@ -36,5 +35,11 @@
 18.) git remote rm -> this command deletes a remote connection
 
 19.) git remote rename -> this command renames the remote connection
+
+20.) git add filename1 filename2: this command will add multiple file changes together in the staging area.
+
+21.) git add . -> this command will add all file from working repo to staging area
+
+22.) git pull -> download latest changes from the branch of the mentioned remote in your remote repo.
 
 Note : The name of the remote connection is always used to establish communction between the repos.
