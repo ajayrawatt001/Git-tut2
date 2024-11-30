@@ -14,3 +14,7 @@
 7.) commit - Commit is a particular version of the project.It captures a snapshot of the project's staged changes and creates a version out of it.
 
 8.) git commit -> registers staging changes to a commit
+
+9.) git log -> list downs all the commits of the respository
+
+10.) git retore -> It removes all files changes from the staging area to be committed.This can be useful,if we did some dirty piece of code and now no more want it.Instead of deleting every change line by line we can restore it or you can say retore last clean version of the file.
