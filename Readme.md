@@ -42,4 +42,4 @@
 
 22.) git pull -> download latest changes from the branch of the mentioned remote in your remote repo.
 
-Note : The name of the remote connection is always used to establish communction between the repos.
+Note : The name of the remote connection is always used to establish communction between the repos...
